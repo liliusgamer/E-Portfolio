@@ -1,0 +1,7 @@
+.liquid-container {
+    pointer-events: none;
+}
+
+.liquid-canvas {
+    pointer-events: auto;
+}

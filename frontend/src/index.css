@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.liquid-container {
+    pointer-events: none;
+}
+
+.liquid-canvas {
+    pointer-events: auto;
+    touch-action: none;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: #000;
+}
